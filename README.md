@@ -41,3 +41,5 @@ CD4046B Phase-Locked Loop uses two types of comparator, one a simple xor gate an
 ## VCO
 
 VCO of CD4046B  has a current mirror consisting of p1 and p2, and p3 and p4 on either sides of c1 and a nor based flip flop. The current enters through p1 and current mirrors in p2 and enters the circuit, the flip flop pulls each side of c1 to the ground. In each half cycle, one side of C1 is held at ground, while the other side is charged by the constant current from p2. The oscillator flips at the same threshold up and down creating symmetrical on/off times. Current mirror provides a stable and predictable current source. There are 8 inverters, 4 on either sides of c1, the slow ramp is fed into c1 and then into inverters 1 and 5. The inverters sharpen the slow edges into fast digital transistion. THe inverters 2-4 and 6-8 add delay so as ensure smooth transitions.
+
+I have also uploaded some documents for reference.
